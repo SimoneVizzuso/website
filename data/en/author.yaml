@@ -1,6 +1,6 @@
 # some information about you
 name: "Simone Vizzuso"
-nickname: "Simo"
+nickname: "Simone Vizzuso"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
 image: "images/profile-photo.jpg"
@@ -11,5 +11,7 @@ contactInfo:
 
 # some summary about what you do
 summary:
+  - I am a MSc Artificial Intelligence Student
+  - I am an Aspiring Researcher
   - I am a Content Creator
-  - I am an AI student
+  - I am a Dungeon Master

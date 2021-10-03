@@ -10,55 +10,37 @@ section:
 
 # Your experiences
 experiences:
+
 - company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
+    name: Certimeter Group
+    url: "https://www.certimetergroup.com/"
+    location: Turin (Italy), Full-time
     # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+    overview: Certimeter Group is a group of IT consulting firms specializing in ICT solutions.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Technical Lead
+    start: oct 2019
     # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
+    end: May 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
+    - I lead a team of 4 people, with whom I manage various web projects, both as a back-end developer and as a PM.
+      The status of the commissions taken on may vary from a starting phase with relative evolution to only maintenance and technical support.
+      I carry out my work partially on site and partially by the client, with whom I relate to present any demos, reports, requests or support.
 
-  - designation: Junior Software Engineer
-    start: Nov 2017
+- company:
+    name: Augens S.r.l.
+    url: "https://www.augens.it/"
+    location: Turin (Italy), Internship
+    # company overview
+    overview: Augens S.r.l. is part of Certimeter Group, a group of IT consulting firms specializing in ICT solutions.
+  positions:
+  - designation: Back End Developer
+    start: Jul 2019
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
     end: Oct 2019
+    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
-
-- company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
-  positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
-    responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
-
-- company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
-  positions:
-  - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
-    responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - I held the role of curricular intern at Augens S.R.L. as a backend developer.
+      The work for the municipality of Turin involved the development for the back office of a back-end in java 1.8 with framework spring, deployed with ANT by jboss 6.
+      The creation of end-points via REST API for communication with a front-end developed in Anuglar 6 by a colleague, to whom I gave my support.

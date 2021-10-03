@@ -11,14 +11,20 @@ section:
 designation: AI Student
 # your company information
 company:
-  name: Simone Vizzuso
-  url: "https://simonevizzuso.dev"
+  name: UNIBO
+  url: "https://corsi.unibo.it/2cycle/artificial-intelligence/index.html"
 
 # your resume. this file path should be relative to you "static" directory
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am an artificial intelligence student passionate about what we have not yet intuited.'
+summary: |
+  I am an artificial intelligence student passionate about what we have not yet intuited.
+
+  I'm learning to be able to discover new ways to exploit the technologies we have, and why not, develop new ones.
+
+  I am open to any commitment that can challenge me and to which I can devote myself completely.
+  Oh yeah, I also love playing D&D and creating online content
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -31,9 +37,9 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Leadership
+- name: Work
   percentage: 85
   color: blue
-- name: Team Work
+- name: In progress
   percentage: 90
   color: yellow

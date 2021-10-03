@@ -11,32 +11,22 @@ section:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
-- name: Kubernetes
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
-
-- name: Go Development
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-
-- name: Cloud Computing
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-
-- name: Docker
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
-
-- name: Prometheus
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
-
-- name: Linux
-  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
-
-- name: Git
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
-
-- name: C++
+- name: Java
   #logo: /images/sections/skills/c++.png
-  summary: "Know basic C/C++ programming. Used for contest programming and problem solving."
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+
+- name: Python
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+
+- name: Machine Learning
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+  
+- name: Deep Learning
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+  
+- name: Computer Vision
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+  
+- name: Git
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum at diam ac mauris placerat feugiat vitae vel ligula."
+  
