@@ -1,0 +1,15 @@
+# some information about you
+name: "Simone Vizzuso"
+nickname: "Simo"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/profile-photo.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "vizzusosimone@gmail.com"
+  phone: "+393771269407"
+
+# some summary about what you do
+summary:
+  - I am a Content Creator
+  - I am an AI student
