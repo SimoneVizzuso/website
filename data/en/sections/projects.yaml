@@ -27,7 +27,7 @@ projects:
   role: Developer
   timeline: "Oct 2020 - Present"
   repo: https://github.com/SimoneVizzuso/website
-  summary: Personal website and Portflio in Hugo deployed on Netlify. Theme by Toha
+  summary: Personal website and Portfolio in Hugo deployed on Netlify. Theme by Toha
   tags: ["hobby"]
 
 - name: twitchScraper
