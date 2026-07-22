@@ -1,3 +1,5 @@
 title: Simone Vizzuso
 description: Portfolio e Blog personale
 permalink: /blog/:slug/
+plugins:
+  - jekyll-feed
