@@ -12,4 +12,5 @@ This website is designed to be minimal, fast, and distraction-free, built with s
 * **Languages:** HTML5, CSS3 (Custom CSS Variables, CSS Grid/Flexbox), Markdown
 * **Hosting:** GitHub Pages
 * **Contact Form:** [FormSubmit](https://formsubmit.co/)
+* **Analytics:** [GoatCounter](https://www.goatcounter.com/) (GDPR compliant)
 * **Domain & DNS:** Porkbun (`simonevizzuso.dev`)
