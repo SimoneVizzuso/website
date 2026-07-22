@@ -1,0 +1,191 @@
+:root {
+  --charcoal-blue: #264653;
+  --verdigris:     #2a9d8f;
+  --jasmine:       #e9c46a;
+  --sandy-brown:   #f4a261;
+  --burnt-peach:   #e76f51;
+  --bg-color:      #fcfbf9;
+  --card-bg:       #ffffff;
+  --text-main:     #264653;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--verdigris);
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: var(--charcoal-blue);
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.highlight {
+  color: var(--burnt-peach);
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--charcoal-blue);
+  opacity: 0.8;
+  margin-bottom: 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  background-color: var(--jasmine);
+  color: var(--charcoal-blue);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  margin: 0 0.2rem;
+}
+
+.badge:hover {
+  background-color: var(--sandy-brown);
+}
+
+.container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+}
+
+.container h2 {
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--verdigris);
+  display: inline-block;
+  padding-bottom: 0.2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.tag, .date {
+  font-size: 0.8rem;
+  color: var(--burnt-peach);
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--verdigris);
+  font-weight: bold;
+}
+
+/* ==========================================
+   STILI ARTICOLO BLOG (.post-content)
+   ========================================== */
+
+/* Rende la lettura più confortevole riducendo la larghezza massima */
+.blog-post {
+  max-width: 720px;
+}
+
+.blog-post h1 {
+  font-size: 2.2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Spaziatura generale del contenuto */
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.post-content p,
+.post-content h2,
+.post-content h3,
+.post-content ul,
+.post-content ol,
+.post-content pre {
+  margin-bottom: 1.25rem;
+}
+
+.post-content h2,
+.post-content h3 {
+  margin-top: 2rem;
+  color: var(--charcoal-blue);
+}
+
+/* Fix per l'allineamento delle liste puntate */
+.post-content ul,
+.post-content ol {
+  padding-left: 1.5rem; /* Riporta i pallini all'interno del margine del testo */
+}
+
+.post-content li {
+  margin-bottom: 0.4rem;
+}
+
+/* Formattazione visiva dei blocchi di codice */
+.post-content pre {
+  background-color: #f1efe9;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.post-content code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}

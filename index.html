@@ -1,0 +1,52 @@
+---
+layout: default
+title: Home
+---
+
+<!-- Hero Section -->
+<header class="hero">
+  <h1>Ciao, sono <span class="highlight">Simone Vizzuso</span> 👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋👋</h1>
+  <p class="subtitle">Sviluppatore, content creator e avventuriero.</p>
+
+  <div class="social-links">
+    <a href="https://youtube.com/simonevizzuso" target="_blank" class="badge">YouTube</a>
+    <a href="https://instagram.com/simonevizzuso" target="_blank" class="badge">Instagram</a>
+    <a href="https://github.com/simonevizzuso" target="_blank" class="badge">GitHub</a>
+  </div>
+</header>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="container">
+  <h2>Progetti in ev(id/eni)enza</h2>
+  <div class="grid">
+    <article class="card">
+      <span class="tag">Vi👋deo / Tech</span>
+      <h3>Titolo del primo Progetto</h3>
+      <p>Devo cercarlo, datemi un attimo che mo lo trovo</p>
+      <a href="#" class="btn">Vedi progetto &rarr; (Non ancora, non funziona)</a>
+    </article>
+
+    <article class="card">
+      <span class="tag">Dev</span>
+      <h3>Titolo del secondo progetto</h3>
+      <p>Sto ancora facendo, piuttosto poi metto un progetto vecchio carin👋o dai</p>
+      <a href="#" class="btn">Vedi su GitHub &rarr; (per ora premi sopra, non funziona nemmen👋 questo)</a>
+    </article>
+  </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="container">
+  <h2>Ultimi Articoli (Sta sezione funziona invece)</h2>
+  <div class="grid">
+    {% for post in site.posts limit:3 %}
+      <article class="card card-blog">
+        <span class="date">{{ post.date | date: "%d/%m/%Y" }}</span>
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{{ post.description }}</p>
+      </article>
+    {% else %}
+      <p>Nessun articolo pubblicato al momento.</p>
+    {% endfor %}
+  </div>
+</section>
