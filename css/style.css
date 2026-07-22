@@ -125,10 +125,10 @@ a {
 }
 
 /* ==========================================
-   STILI ARTICOLO BLOG (.post-content)
+   BLOG POST STYLES (.post-content)
    ========================================== */
 
-/* Rende la lettura più confortevole riducendo la larghezza massima */
+/* Makes reading more comfortable by reducing the maximum width */
 .blog-post {
   max-width: 720px;
 }
@@ -139,7 +139,7 @@ a {
   margin-bottom: 1.5rem;
 }
 
-/* Spaziatura generale del contenuto */
+/* General spacing of the content */
 .post-content {
   font-size: 1.05rem;
   line-height: 1.7;
@@ -160,17 +160,17 @@ a {
   color: var(--charcoal-blue);
 }
 
-/* Fix per l'allineamento delle liste puntate */
+/* Fix for the alignment of bulleted lists */
 .post-content ul,
 .post-content ol {
-  padding-left: 1.5rem; /* Riporta i pallini all'interno del margine del testo */
+  padding-left: 1.5rem; /* Move the bullet points back within the text margin */
 }
 
 .post-content li {
   margin-bottom: 0.4rem;
 }
 
-/* Formattazione visiva dei blocchi di codice */
+/* Visual formatting of code blocks */
 .post-content pre {
   background-color: #f1efe9;
   padding: 1rem;
@@ -181,6 +181,54 @@ a {
 .post-content code {
   font-family: 'Courier New', Courier, monospace;
   font-size: 0.95rem;
+}
+
+/* ==========================================
+   CONTACT FORM
+   ========================================== */
+.form-group {
+  margin-bottom: 1.2rem;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.4rem;
+  color: var(--charcoal-blue);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--verdigris);
+  box-shadow: 0 0 0 2px rgba(42, 157, 143, 0.2);
+}
+
+.btn-submit {
+  background-color: var(--verdigris);
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-submit:hover {
+  background-color: var(--charcoal-blue);
 }
 
 footer {

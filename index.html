@@ -50,3 +50,37 @@ title: "Simone Vizzuso"
     {% endfor %}
   </div>
 </section>
+ 
+<!-- Contact Section -->
+<section id="contact" class="container">
+  <h2>Contattami</h2>
+  <div class="card">
+    <form action="https://formsubmit.co/vizzusosimone+blog@gmail.com" method="POST">
+      
+      <!-- Anti-spam Honeypot -->
+      <input type="text" name="_honey" style="display:none">
+      
+      <!-- Disable captcha for cleaner form -->
+      <input type="hidden" name="_captcha" value="false">
+      
+      <input type="hidden" name="_subject" value="Nuovo messaggio dal sito web!">
+
+      <div class="form-group">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" required placeholder="Il tuo nome">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="la-tua-email@esempio.com">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Messaggio</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Ciao Simone, volevo scriverti per..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-submit">Invia Messaggio &rarr;</button>
+    </form>
+  </div>
+</section>
